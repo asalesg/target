@@ -19,3 +19,16 @@ imprimir(SOMA);
 Ao final do processamento, qual será o valor da variável SOMA?
 
 RESULTADO: O valor final da variável SOMA será 91.
+
+The selected code is written in a language that appears to be a mix of Portuguese and a pseudocode-like syntax. It calculates the sum of all numbers from 1 to a given index (13 in this case) and stores the result in the variable `SOMA`.
+
+Here's a breakdown of the code:
+
+1. Three integer variables are declared: `INDICE`, `SOMA`, and `K`. `INDICE` is initialized with the value 13, `SOMA` with 0, and `K` with 0.
+2. A `while` loop is initiated with the condition `K < INDICE`. This loop will continue as long as `K` is less than `INDICE`.
+3. Inside the loop, `K` is incremented by 1 (`K = K + 1`).
+4. The value of `K` is then added to `SOMA` (`SOMA = SOMA + K`).
+5. The loop continues until `K` reaches the value of `INDICE`.
+6. Finally, the value of `SOMA` is printed using the `imprimir` function.
+
+The expected result, as stated in the provided explanation, is that the final value of `SOMA` will be 91. This is because the sum of all numbers from 1 to 13 is 91.
